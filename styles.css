@@ -1,5 +1,4 @@
 @media screen and (max-width: 600px) {
-    /* CSS rules for screens with a maximum width of 600px */
     body {
       font-size: 14px;
     }
@@ -10,26 +9,27 @@
       margin-top: 20px;
     }
   }
-  body{
+  
+  body {
     margin: 0;
     padding: 0;
   }
-  .head{
+  
+  .head {
     font-family: 'Roboto Mono', monospace;
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 4vw; /* Adjust the font size to be responsive */
     border: 2px solid black;
     background-color: burlywood;
     margin-bottom: 10px;
     display: flex;
-    justify-content: center; 
-  align-items: center; 
+    justify-content: space-evenly;
+    align-items: center;
   }
-  .head img{
-    max-width: 50px;
-    max-height: 50px;
-    margin-right: 20px;
-    margin-left: 20px;
+  
+  .head img {
+    max-width: 10vw; /* Adjust the image size to be responsive */
+    max-height: 10vw; /* Adjust the image size to be responsive */
   }
   
   .container {
@@ -47,13 +47,14 @@
   .nav-element {
     border: 2px solid black;
     margin-bottom: 25px;
-    margin-right: 10px; /* Add margin-right to create space between boxes */
+    margin-right: 10px;
+    /* Add margin-right to create space between boxes */
     display: flex;
     border-radius: 10px;
   }
   
   .nav-element a {
-    font-size: 17px;
+    font-size: 2.5vw; /* Adjust the font size to be responsive */
     font-family: 'Roboto Mono', monospace;
     text-decoration: none;
     color: black;
@@ -65,24 +66,25 @@
     background-color: burlywood;
     border-radius: 10px;
     cursor: pointer;
-
     font-weight: bold;
   }
   
   .container > * {
-    margin-right: 10px; /* Adjust the value as per your desired spacing */
+    margin-right: 10px;
+    /* Adjust the value as per your desired spacing */
   }
   
   .container > *:last-child {
-    margin-right: 0; /* Remove the margin for the last element to avoid extra space */
+    margin-right: 0;
+    /* Remove the margin for the last element to avoid extra space */
   }
   
-  .hero{
+  .hero {
     font-family: 'Roboto Mono', monospace;
     text-align: justify;
   }
-
-  h1{
+  
+  h1 {
     font-weight: bolder;
     border: 2px solid black;
     display: inline;
@@ -91,28 +93,31 @@
     background-color: burlywood;
     box-shadow: 1px 3px 10px black;
   }
-  .foot
-  {
+  
+  .foot {
     display: flex;
     justify-content: center;
     align-items: center;
-  font-family: "Ubuntu", sans-serif;
-  background-color: burlywood;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: burlywood;
   }
-  .profile img{
+  
+  .profile img {
     margin: 10px 20px 10px 10px;
     display: flex;
     object-fit: cover;
-    height: 50px;
-    width: 50px;
+    height: 5vw; /* Adjust the image size to be responsive */
+    width: 5vw; /* Adjust the image size to be responsive */
     border-radius: 50px;
     box-shadow: 1px 1px 15px black;
   }
-  .main-section{
+  
+  .main-section {
     margin-bottom: 15px;
   }
-  .image{
-    height: 250px;
+  
+  .image {
+    height: 30vw; /* Adjust the image size to be responsive */
     width: fit-content;
     display: flex;
     flex-direction: column;
@@ -120,9 +125,10 @@
     align-items: center; /* Align horizontally in the middle */
     margin: 0 auto; /* Center the image horizontally within its container */
   }
-  .caption{
+  
+  .caption {
     text-align: center;
     font-weight: bold;
+    font-size: 3vw; /* Adjust the font size to be responsive */
   }
   
-
